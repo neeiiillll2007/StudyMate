@@ -1,55 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StudyMate - Smart Study Platform</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StudyMate</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    /* General Styling */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #007bff, #00c6ff);
+      color: white;
+      padding: 20px 0;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .container {
+      margin: 40px auto;
+      width: 90%;
+      max-width: 800px;
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #007bff;
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: #eef5ff;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    /* Share Notes Button */
+    .share-notes-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #4CAF50, #2E8B57);
+      color: white;
+      padding: 12px 25px;
+      border-radius: 10px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.3s;
+      margin-top: 25px;
+    }
+
+    .share-notes-btn:hover {
+      background: linear-gradient(135deg, #45a049, #1e7b43);
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 15px;
+      background: #007bff;
+      color: white;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <img src="images/logo.png" alt="StudyMate Logo" class="logo">
-    <h1>📚 StudyMate</h1>
-    <p>Your smart companion for study resources</p>
+    <h1>📘 StudyMate</h1>
+    <p>Your one-stop platform for sharing and learning notes.</p>
   </header>
 
-  <main>
-    <section class="intro">
-      <h2>Welcome to StudyMate</h2>
-      <p>
-        Find all your notes, study materials, and guides for different courses — all in one place.
-      </p>
-    </section>
+  <div class="container">
+    <h2>Available Subjects</h2>
+    <ul>
+      <li>Computer Fundamentals</li>
+      <li>Programming in C</li>
+      <li>Database Management System</li>
+      <li>Web Development</li>
+      <li>Operating Systems</li>
+      <li>Data Structures</li>
+    </ul>
 
-    <section class="subjects">
-      <h2>Choose Your Course</h2>
-      <div class="subject-buttons">
-        <a href="subjects/bca.html" class="btn">BCA</a>
-        <a href="subjects/bcom.html" class="btn">B.Com</a>
-        <a href="subjects/bsc.html" class="btn">B.Sc</a>
-        <a href="subjects/mba.html" class="btn">MBA</a>
-        <a href="subjects/engineering.html" class="btn">Engineering</a>
-        <a href="subjects/arts.html" class="btn">Arts</a>
-       <section class="share">
-  <h2>🤝 Share Your Notes</h2>
-  <p>Got helpful notes or study materials? Upload and help other BCA students!</p>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFmYKrQFUqhTeoHGx8ArOSZDM4FrPtoD7SJU5dAT9YGWCX5A/viewform?usp=dialog" 
-     target="_blank" class="btn">Share Your Notes</a>
-</section>
-      </div>
-    </section>
-
-    <section class="about">
-      <h2>About StudyMate</h2>
-      <p>
-        StudyMate is created by students, for students — to make learning simpler and accessible.
-        You can find notes, video tutorials, and practice papers to help you study smarter.
-      </p>
-    </section>
-  </main>
+    <!-- Share Notes Button -->
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFmYKrQFUqhTeoHGx8ArOSZDM4FrPtoD7SJU5dAT9YGWCX5A/viewform?usp=header"
+       target="_blank"
+       class="share-notes-btn">
+       📤 Share Your Notes
+    </a>
+  </div>
 
   <footer>
-    <p>© 2025 StudyMate | Built with by Neil Ingole</p>
+    <p>Made with by Neil ingole | StudyMate © 2025</p>
   </footer>
 </body>
 </html>
