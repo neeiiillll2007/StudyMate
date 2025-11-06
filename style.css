@@ -22,6 +22,79 @@ header {
   height: 60px;
   border-radius: 50%;
 }
+/* === General Page Style === */
+body {
+  background-color: #000; /* Black background */
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Subject List Style === */
+#subjectList {
+  list-style: none;
+  padding: 0;
+  margin: 50px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+#subjectList li {
+  margin: 15px 0;
+}
+
+#subjectList a {
+  display: block;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: 1px solid #333;
+}
+
+#subjectList a:hover {
+  background: #00bfff; /* Light blue glow */
+  color: #000;
+  box-shadow: 0 0 15px #00bfff;
+  transform: scale(1.05);
+}
+
+/* === Search Box === */
+.search-container {
+  margin-top: 40px;
+}
+
+#searchInput {
+  width: 70%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: #00bfff;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#searchButton:hover {
+  background-color: #fff;
+  color: #00bfff;
+  box-shadow: 0 0 10px #00bfff;
+}
 
 h1 {
   margin: 10px 0 5px;
@@ -82,3 +155,4 @@ footer {
   color: #444;
   margin-bottom: 20px;
 }
+
