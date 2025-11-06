@@ -1,1 +1,1 @@
-console.log("StudyMate is running!");
+console.log("NoteHub is running!");
