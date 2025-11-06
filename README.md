@@ -1,6 +1,6 @@
-# 📚 StudyMate
+# 📚 NoteHub
 
-**StudyMate** is a free and easy-to-use educational website built to help **students from all courses** — BCA, BBA, B.Tech, and more — access **notes, solved programs, and previous year question papers** in one organized place.
+**NoteHub** is a free and easy-to-use educational website built to help **students from all courses** — BCA, BBA, B.Tech, and more — access **notes, solved programs, and previous year question papers** in one organized place.
 
 ---
 
@@ -19,13 +19,13 @@
 - **HTML** – Structure of the website  
 - **CSS** – Styling and layout  
 - **JavaScript** – Interactivity  
-- **Netlify** – Free hosting platform  
+- **GITHUB** – Free hosting platform  
 
 ---
 
 ## 💡 Vision
 
-> To make **StudyMate** the go-to platform for students of every stream — helping them learn smarter, not harder.  
+> To make **NoteHub** the go-to platform for students of every stream — helping them learn smarter, not harder.  
 
 ---
 
@@ -48,7 +48,7 @@ Every contribution helps make StudyMate better for students worldwide!
 ## 📬 Contact
 
 **Created by:** Neil Ingole  
-**Project Name:** StudyMate  
+**Project Name:** NoteHub  
 **Purpose:** To help students access free study resources easily  
 📧 **Email:** *(Add your email here if you want students to contact you)*  
 
